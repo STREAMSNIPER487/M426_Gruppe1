@@ -2,6 +2,12 @@
   "name": "m426_gruppe1",
   "version": "1.0.0",
   "main": "index.js",
+  "dependencies": {
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +22,5 @@
     "url": "https://github.com/STREAMSNIPER487/M426_Gruppe1/issues"
   },
   "homepage": "https://github.com/STREAMSNIPER487/M426_Gruppe1#readme",
-  "description": "",
-  "dependencies": {
-    "typescript": "^6.0.3"
-  }
+  "description": ""
 }
