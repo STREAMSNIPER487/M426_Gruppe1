@@ -1,9 +1,7 @@
 export function checkIfEven(num: number): boolean {
-    return num % 2 === 0;
-}
-
-export function checkIfOdd(num: number) {
-    if(num % 2 !== 0) {
+    if (num % 2 === 0) {
+        return true;
+    } else {
         throw new Error("Number is not even");
     }
 }
