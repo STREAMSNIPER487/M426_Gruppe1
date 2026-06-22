@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import { simulateMatch } from './matchSimulator.ts';
 import type { Team, GameResult } from './simulation.ts';
 
-const teamA: Team = { name: 'Team A' };
-const teamB: Team = { name: 'Team B' };
-const teamC: Team = { name: 'Team C' };
+const teamA: Team = { name: 'Team A', strength: 60 };
+const teamB: Team = { name: 'Team B', strength: 60 };
+const teamC: Team = { name: 'Team C', strength: 60 };
 const teams = [teamA, teamB, teamC];
 
 describe('Teamauswahl', () => {
